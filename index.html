@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-Manager</title>
+    
+    <script src = "js/board.js"></script>
+    <script src = "js/task.js"></script>
+    <script src = "js/flow.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Neucha" rel="stylesheet">
+
+    <link href=https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css rel="stylesheet">
+    <link rel="stylesheet" href = "css/flow.css">
+    <link rel="stylesheet" href = "css/board.css">
+    <link rel="stylesheet" href = "css/task.css">
+    <link rel="stylesheet" href = "css/checkbox.css">
+    <link rel="stylesheet" href = "css/popup.css">
+</head>
+<body>
+    <div class="general">
+        <div class="header">  <p>Task Board</p> <i class="fa fa-thumb-tack" aria-hidden="true"></i>
+            <div class = "addCard">Add new card</div>
+        </div>
+        <div id="board"></div>
+    </div>
+
+    <div class="popup-wrapper hidden">
+            <div class="popup">
+            <div class="popup-name"><div>Name</div><input type="text"></div>
+            <div class="popup-text"><div>Text</div><input type="text"></div>
+            </div>
+        </div>
+</body>
+</html>

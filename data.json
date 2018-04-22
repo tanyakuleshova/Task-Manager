@@ -1,0 +1,60 @@
+{
+    "data":{
+        "boards":[
+                {
+                "id": 1,
+                "name": "To-do list",
+                "max-size": "10",
+                "tasks":[
+                    {
+                        "board_id": "1",
+                        "id":101,
+                        "title": "t1_1",
+                        "text": "Buy a gift"
+                    },
+                    {
+                        "board_id": "1",
+                        "id":102,
+                        "title": "t1_2",
+                        "text": "Call to friends"
+                    },
+                    {
+                        "board_id": "1",
+                        "id":103,
+                        "title": "t1_3",
+                        "text": "Transplant flowers"
+                    }
+                ]
+            },
+                {
+                "id": 2,
+                "name": "In progress",
+                "max-size": "10",
+                "tasks":[
+                    {
+                        "board_id": "2",
+                        "id":201,
+                        "title": "t2_1",
+                        "text": "Edit an article"
+                    }
+                ]
+            },
+                            {
+                "id": 3,
+                "name": "Done",
+                "max-size": "10",
+                "tasks":[
+                    {
+                        "board_id": "3",
+                        "id":301,
+                        "title": "t3_1",
+                        "text": "Learn new words"
+                    }
+                ]
+            }
+        ]
+        
+    }
+}
+
+

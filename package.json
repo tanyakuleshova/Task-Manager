@@ -1,0 +1,24 @@
+{
+  "name": "less20",
+  "version": "1.0.0",
+  "main": "code.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanyakuleshova/task-board.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tanyakuleshova/task-board/issues"
+  },
+  "homepage": "https://github.com/tanyakuleshova/task-board#readme",
+  "devDependencies": {
+    "node-static": "0.7.10"
+  },
+  "keywords": [],
+  "description": ""
+}

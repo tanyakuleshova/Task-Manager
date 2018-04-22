@@ -1,0 +1,94 @@
+#board{
+    display: flex;
+    position: absolute;
+    top: 80px;
+    width: calc(100% - 250px);
+    padding-left: 25px;
+}
+
+.list-wrapper{
+    position: relative;
+    margin-right: 20px;
+    height: 500px;
+    width: 250px;
+}
+.card_title{
+    text-align: center;
+    width: 100%;
+    height: 35px;
+    font-family: 'Pacifico', cursive;
+}
+.list{
+    height: 425px;
+    width: 250px;
+    background-color: rgba(0, 77, 153, 0.7);
+    border-radius: 5px 5px 0 0;
+    overflow-x: auto;
+    border: 2px solid black;
+    border-bottom: 0px;
+}
+
+::-webkit-scrollbar {
+    background-color: rgb(228, 224, 224);
+    float: left;
+    margin-bottom: 25px;
+    margin-left: 22px;
+    margin-top: 40px;
+    width: 5px;
+       overflow-y: scroll;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(37, 36, 36)
+}
+
+
+.task{
+    width: calc(100% - 20px);
+    margin: 10px;
+    height: 80px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    font-family: 'Neucha', cursive;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.addTask{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    border-radius: 0 0 5px 5px;
+    background-color: rgb(26, 140, 255);
+    border: none;
+    height: 40px;
+    width: 250px;
+    bottom: 0;
+    left: 0;
+    transition: 0.2s linear;
+    border: 2px solid black;
+}
+
+.addTask:hover{
+    background-color: rgb(0, 102, 204);
+}
+
+.addCard{
+    position: absolute;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(26, 140, 255);
+    color: black;
+    height: 30px;
+    width: 150px;
+    border-radius: 5px;
+    font-family: 'Neucha', cursive;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 20px;
+
+}
